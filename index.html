@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pratica con il Grid System</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous">
+            <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Pratica con il Grid System</h1>
+        </header>
+        <main>
+            <h2>Esercizio 1</h2>
+            <section class="container">
+                <div class="row">
+                    <div class="col-md-4 bg-primary text-white p-5 border border-dark">ciao</div>
+                    <div class="col-md-4 bg-primary text-white p-5 border border-dark">sono</div>
+                    <div class="col-md-4 bg-primary text-white p-5 border border-dark">una colonna</div>
+                </div>
+            </section>
+            <h2>Esercizio 2</h2>
+            <section class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-4 bg-warning text-dark p-5 border border-dark">ciao</div>
+                    <div class="col-sm-12 col-md-12 col-lg-4 bg-warning text-dark p-5 border border-dark">sono</div>
+                    <div class="col-sm-12 col-md-12 col-lg-4 bg-warning text-dark p-5 border border-dark">una colonna</div>
+                </div>
+
+            </section>
+            <h2>Esercizio 3</h2>
+            <section class="container">
+                <div class="row">
+                    <div class="col-12 bg-success text-white p-3 border">Colonna 1</div>
+                    <div class="col-12 bg-success text-white p-3 border">Colonna 2</div>
+                    <div class="col-12 bg-success text-white p-3 border">Colonna 3</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 bg-success text-white p-3 border">Colonna 1</div>
+                    <div class="col-md-4 bg-success text-white p-3 border">Colonna 2</div>
+                    <div class="col-md-4 bg-success text-white p-3 border">Colonna 3</div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 bg-success text-white p-3 border">Colonna 1</div>
+                    <div class="col-lg-3 bg-success text-white p-3 border">Colonna 2</div>
+                    <div class="col-lg-3 bg-success text-white p-3 border">Colonna 3</div>
+                    <div class="col-lg-3 bg-success text-white p-3 border">Colonna 4</div>
+                </div>
+            </section>
+            <h2>Esercizio 4</h2>
+            <section class="container">
+                <div class="row">
+                    <div class="col-md-3 bg-danger text-white p-3 border">Colonna 1</div>
+                    <div class="col-md-6 bg-danger text-white p-3 border">Colonna 2</div>
+                    <div class="col-md-3 bg-danger text-white p-3 border">Colonna 3</div>
+                </div>
+            </section>
+            <h2>Esercizio 5</h2>
+            <section class="container">
+                <div class="row">
+                    <div class="col-md-8 col-12 bg-primary text-white p-3 border">
+                        Colonna Grande
+                        <div class="row">
+                            <div class="col-md-6 col-12 bg-secondary text-white p-3 border">
+                                Colonna Annidata 
+                            </div>
+                            <div class="col-md-6 col-12 bg-secondary text-white p-3 border">
+                                Colonna Annidata 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 bg-primary text-white p-3 border">
+                        Colonna Piccola
+                    </div>
+                </div>
+            </section>
+            <h2>Esercizio 6</h2>
+            <section class="container">
+                <div class="row position-relative">                    
+                    <div class="col-md-4 bg-dark text-white p-3">Colonna 1</div>                    
+                    <div class="col-md-4 position-absolute top-0 start-100 translate-middle bg-dark text-white p-3">Colonna 2</div>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+</html>
